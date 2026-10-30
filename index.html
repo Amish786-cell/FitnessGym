@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+        <title> FitnessGym </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <!--Navigation-->
+        <header>
+            <nav class="navbar">
+                <h2 class="logo">Fitness<span>Gym</span></h2>
+                <button class="menu-btn" id="menuBtn" aria-level="Toggle navigation" aria-expanded="false"></button>
+                <ul class="nav-links"
+                    id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="pricing">Membership</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <--Hero Section-->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="tagline">YOUR FITNESS JOURNEY STARTS HERE</p>
+                <h1>BUILD YOUR MUSCLE.<br><span>TRANSFORM YOUR LIFE.</span></h1>
+                <p> 
+                    Train harder, feel stronger & achieve your fitness goal with FitnessGym.
+                </p>
+                <a href="#pricing" class="btn">Join Our Gym</a>
+            </div>
+        </section>
+
+        <!--Programs-->
+        <section class="section" id="programs">
+            <h2>Our <span>Programs</span></h2>
+            <p class="subtitle">Find the right workout for you.</p>
+            <div class="programs">
+                <div class="card">
+                    <div class="programs-icon">🏋️</div>
+                    <h3>Strength Training</h3>
+                    <p>Build muscle and improve your strength</p>
+                </div>
+                <div class="card">
+                    <div class="program-icons">🏃‍♂️</div>
+                    <h3>Cardio-Fitness</h3>
+                    <p> Improve endurance and support heart health.</p>
+                </div>
+        </section>
+        <!--Membership-->
+        <section class="about section" id="about">
+            <h2>Why Choose <span> FitnessGym?</span></h2>
+            <p>
+                We help members buildhealthy habits with modern equipment, supportive trainers, and
+                workout programs for different fitness levels.
+            </p>
+        </section>
+
+        <!--Membership-->
+        <section class="section", id="pricing">
+            <h2>Membership<span>Plans</span></h2>
+            <div class="programs">
+                <div class="card price-card">
+                    <h3>Basic</h3>
+                    <p class="price">Rs.999<small>/month</small></p>
+                    <p>Gym access</p>
+                    <p>Standard equipment</p>
+                    <button class="btn join-btn" data-plan="Basic">Join Now</button>
+                </div>
+            <div class="card price-card featured">
+                <h3>Premium</h3>
+                <p class="price">Rs.1999<small>/month</small></p>
+                <p>Full Gym access</p>
+                <p>Trainer Guidance</p>
+                <button class="btn join-btn" data-plan="Premium">Join Now</button>
+                </div>
+            <div class="card price-card">
+                <h3>Annual</h3>
+                <p class="price">Rs.9999<small>/month</small></p>
+                <p>Long-Term Membership</p>
+                <p>Personalize workout plan</p>
+                <button class="btn join-btn" data-plan="Annual">Join Now</button>
+                </div>
+            </div>
+        </section>
+        
+        <!--Footer-->
+        <footer>
+            <p> 2026 FitnessGym. All rigths reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
